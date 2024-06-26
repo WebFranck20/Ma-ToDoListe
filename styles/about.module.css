@@ -1,0 +1,106 @@
+.corps{
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    background: transparent;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+    gap: 25px;
+    background: transparent;
+    margin-top: 30px;
+    padding: 20px;
+}
+.form .todoliste{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    background: #f2f2f2;
+
+}
+.todoliste label, .tabTache h2, .todoliste button{
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.todoliste input{
+    font-style: normal;
+    text-transform: none;
+    position: relative;
+    width: 60%;
+    height:25px;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    background: #f2f2f2;
+}
+.todoliste button{
+    position: relative;
+    width: 25%;
+    height:35px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    font-size: 0.8em;
+}
+.todoliste button:hover{
+    background:  red;
+}
+.tabTache{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    flex-wrap: wrap;
+    width: 50%;
+    border-radius: 5px ; 
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.tabTache ol{
+    display: inline-block;
+    align-items: start;
+    justify-content: start;
+    width: 90%;
+}
+.tabTache ol li{
+    border: 1px solid grey;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+    padding: 2px;
+    gap: 5px;
+    margin-bottom: 4px;
+ 
+}
+.tabTache ol li button{
+    background: #202;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid gray;
+    width: 80px;
+ 
+}
+.tabTache ol li button:hover{
+    background: red;
+}
